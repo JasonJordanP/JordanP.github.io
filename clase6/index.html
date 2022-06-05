@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+        
+    <main>
+
+        <section>
+            <h1>Clase 6</h1>
+            <fieldset>
+                <legend>
+                    Alta de usuario
+                </legend>
+                <form action="AltaUsuario.html" method="POST"> <!--POST sirve para que no e vean los datos que mando en la URL de la pagina-->
+                    <input type="file" name="dni-frente">
+                    <input type="hidden" value="valorOculto" name="campohidden">
+                    
+                     <!--LA ETIQUETA REQUIRED LO HACE UN DATO A LLENAR OBLIGATORIAMENTE-->
+                    <input type="url" name="url" required placeholder="Ingrese una página web">
+                    <br>
+                    <input type="text" name="nombre" required placeholder="Ingrese su nombre">
+            
+                    <input type="text" name="números" required placeholder="Ingrese un número del 0 al 9" pattern="[0-9]">
+                    <br>
+                    <textarea name="información extra" cols="50" rows="5"> </textarea>
+                    <br>
+
+                    <select name="select multiple" multiple required>
+                        <optgroup label="Animales">
+                            <option>Cebra</option>
+                            <option>Pato</option>
+                            <option>Elefante</option>
+                        </optgroup>
+                        <optgroup label="Equipos">
+                            <option>Boca</option>
+                            <option>Psg</option>
+                            <option>Manchester U.</option>
+                        </optgroup>         
+
+                    </select>
+
+                    <br>
+                    
+                    <!--Para hacer una lista desplegable para seleccionar-->
+                    <input list="browser" name="databrowser">
+                    <datalist id="browser">
+                        <option>Explorer</option>
+                        <option>Chrome</option>
+                        <option>Firefox</option>
+                        <option>Opera</option>
+                    </datalist>
+                    <br>
+                    <label for="buscar">Tipo search</label>
+                    <input type="search" name="buscar" id="buscar">
+                    <br>
+                    <label for="buscartext">Tipo text</label>
+                    <input type="text" name="buscartext" id="buscartext"> 
+                    <br>
+
+                    <input type="submit" value="Enviar">
+
+                </form>
+                    
+                   
+                </form>
+            </fieldset>
+        </section>
+    </main>
+</body>
+</html>
