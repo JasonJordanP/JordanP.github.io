@@ -1,0 +1,81 @@
+ 
+.nav-link {
+  color: grey; font-weight: 400; font-size: medium;
+}
+#linkactivo {
+  color: rgb(5, 151, 5); font-weight: 400;
+}
+        
+p {
+  font-size: large; font-weight: 450;
+}
+
+.card-img {
+  filter:brightness(50%)
+}
+.card-two {
+  float:right ; text-align: right; text-align: center;
+}
+.card {
+  float: right; text-align: right; border-color: rgb(243, 242, 242);
+}
+#specialcard{
+  float: right; text-align: right; border: 0px
+}
+.card-body {
+  padding-top: 22%; padding-right: 10%; font-weight: 400; font-size: smaller;
+}
+#linkSeleccionado {
+  color: rgb(255, 255, 255); font-weight: 400; font-size: medium;
+}
+#botonVerde {
+  background-color: rgb(5, 151, 5); font-size: small; font-weight: 500; outline-style:none; color: white;
+}
+.card-body-oradores {
+  text-align: left; padding: 20px;
+}
+#losbotones {
+  font-weight: bold;
+}
+.conocerOradores {
+  text-align: center; color: rgb(56, 53, 53);
+}
+.conocerOradores p {
+  text-align: center; color: rgb(56, 53, 53); font-weight: 400; font-size: smaller;
+}
+#sinmargin {
+  margin: 0%;
+}
+.container {
+  margin: 0%; padding: 0%; max-width: 100%;
+}
+.card-body-dos {
+  background-color: #323636;
+}
+.col-md-6 {
+  padding: 0px; color: white;
+}
+.card-text-dos {
+  font-size: small; height:374px !important; padding: 20px; border: 5px;
+}
+h3 {
+  margin-left: 20px; margin-right: 20px; padding-top: 20px;
+}
+#botonTransparenteDos {
+  margin-top: 15px;
+}
+#exampleFormControlTextarea1 {
+  align-self: center; margin-left: 450px;
+}
+figcaption {
+  padding-top: 12px; padding-bottom: 12px; padding-left: 0%; margin-left: 420px;
+}
+#botonEnviar {
+  background-color: rgba(114, 224, 23, 0.952); border-color:rgba(114, 224, 23, 0.952) ; font-weight: 400; font-size: larger; width: 830px; height:50px; margin-left: 238px;
+}
+#pie {
+  color: white; font-weight: 400;
+}
+.navbar-brand {
+  padding-left: 80px; font-size: x-large;
+}
