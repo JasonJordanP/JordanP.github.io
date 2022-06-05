@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Clase5</title>
+</head>
+<body>
+    <h1>CREAR CUENTA</h1>
+    <fieldset>
+        <legend>
+            Informaci&oacute;n Personal
+        </legend>
+        <form>
+            <br>
+            <label>Nombre *</label>
+            <input type="text" name="nombre" placeholder="Jason Jordan">
+            <label>Apellido *</label>
+            <input type="text" name="apellido" placeholder="Perez Urrutia">
+            <br>
+            <br>
+            <label>Direccion de mail *</label>
+            <input type="email" name="mail" placeholder="jordanperez@gmail.com">
+            <br>
+            <br>
+            <label>Nro de Documento *</label>
+            <input type="number" name="documento">
+            <br>
+            <!--SOLO NÚMEROS-->
+            <label>Edad *</label>
+            <input type="number" min="0" max="110">
+            
+            <br> 
+            <label>Desea adherirse al buzón de novedades</label>
+            <span>SÍ</span>
+            <input type="checkbox" name="buzon" value="si" checked>
+            <span>NO</span>
+            <input type="checkbox" name="buzon" value="no">
+            <br>
+
+            <label>Está casado</label>
+            <span>SÍ</span>
+            <input type="radio" name="casado" value="sí">
+            <span>NO</span>
+            <input type="radio" name="casado" value="no">
+            <br>
+
+            <label>Cantidad</label>
+            <select>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+            </select>
+            
+            <input type="submit" value="ENVIAR">
+            
+        </form>
+    </fieldset>
+    <fieldset>
+        <legend>Form con tabla</legend>
+        <form action="file:///C:/Users/Jason/codo-codo-2022-nuevo/clase4/index.html" method="POST">
+        <table>
+            <tr>
+                <td colspan="2">
+                    <label>Nombre *</label>
+                    <input type="text" name="nombre" placeholder="Lionel Messi" maxlength="100">
+                </td>
+                <td>
+                    <label>Apellido *</label>
+                    <input type="text" name="apellido" placeholder="Perez Urrutia" maxlength="100">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label>Dirección de mail</label><br>
+                    <input type="email" name="mail" placeholder="jordanperez@gmail.com">
+                </td>    
+            </tr>
+            <tr>
+                <td>
+                    <label>Número de documento</label><br>
+                    <input type="number" name="nombre"  min="0" max="99999999">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="submit" value="Guardar">
+                </td>
+            </tr>
+        </table>
+        </form>
+    </fieldset>
+</body>
+</html>
