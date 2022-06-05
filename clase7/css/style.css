@@ -1,0 +1,40 @@
+/*    DE ESTA FORMA USAMOS UN SELECTOR UNIVERSAL
+
+
+* {
+    background-color: rgb(9, 223, 238);
+}
+
+*/
+
+
+
+/*así se hace un comentario en CSS*/ 
+/*hay que usar las etquetas STYLE dentro de HEAD y toda esa sección va a ser CSS*/
+/*ASÍ SE USA CSS DE MANERA INTERNA*/
+body {
+    background-color: blueviolet;
+}
+
+/* APLICAR ESTILO MEDIANTE id usando hashtag y nombre identificador*/
+#identificarestilounico{
+    background-color: hotpink;
+}
+
+#nav{
+    background-color: beige;
+}
+
+/*Aplicar css mediante clases, . (punto) y el nombredelaclase */
+
+.links{
+ color: rgb(247, 7, 255);   
+}
+
+a{
+    text-decoration: none;
+}
+
+#linkActive{
+    color: tomato;
+}

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Clase 7 CSS</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+   
+
+  
+  <style>
+        /*así se hace un comentario en CSS*/ 
+        /*hay que usar las etquetas STYLE dentro de HEAD y toda esa sección va a ser CSS*/
+        /*ASÍ SE USA CSS DE MANERA INTERNA*/
+        body {
+            background-color: blueviolet;
+        }
+
+    </style>
+
+    <!--Incluyo un archivo externo al index.html de estilos css-->
+    <link rel="stylesheet" href="style2.css">
+</head>
+
+
+<!--EL STYLE QUE APLIQUE ACÁ, VA A PISAR AL STYLE QUE USE ARRIBA-->
+<!--<body style="background-color: lawngreen">-->
+<body>
+    <header>
+
+        <img src="bocajrs.png" alt="logo">
+
+        <nav class="nav">
+            <a class="links" href="#">Inicio</a>
+            <a class="links" href="#">Nosotros</a>
+            <a class="links" href="#">Etc</a>
+        </nav>
+    </header>
+
+    <main class="container">
+        <section class="classsection">
+            <h1>Título de página</h1>
+        </section>
+
+        <section class="classsection">
+            <p>
+                Search the world's information, including webpages, images, videos and more. Google has many special features to help you find exactly what you're looking for.
+            </p>
+        </section>
+
+        <ul>
+            <li>
+                <a href="#">Link 1</a>
+            </li>
+            <li>
+                <a href="#">Link 2</a>
+            </li>
+        </ul>
+        
+    </main>
+    
+</body>
+</html>
